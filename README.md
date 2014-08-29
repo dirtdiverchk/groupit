@@ -17,10 +17,10 @@ Para evitar redundancia no hemos subido el node_modules. Para obtenerlo ejecutar
 Esto instalará todos los paquetes necesarios cogiendo las dependencias en el archivo package.json
 
 
-
+jojo
 
 
 Desarrolladores: 
 
-Iago  
+
 Juli
