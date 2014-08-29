@@ -18,9 +18,8 @@ Esto instalará todos los paquetes necesarios cogiendo las dependencias en el ar
 
 
 jojo
+jiji
 
-
-Desarrolladores: 
-
-
+Desarrolladores
+Iago
 Juli
