@@ -1,0 +1,81 @@
+<html>
+<head>
+	<link rel=stylesheet href="css/user.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script src="http://192.168.0.180:3001/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/user.js"></script>
+	<script type="text/javascript" src="js/angular/angular.js"></script>
+	<script src="js/controllers.js"></script>
+	
+	
+	<title>GroupIt!</title>
+</head>
+
+<body background="doc/fondo.jpg" onload="init()" ng-App="App">
+
+<div id="container">
+
+
+	<div id="barra">
+		
+		<div id="groupitbut"><a href="#" id="abarra">Group It!</a></div>
+		<div id="userbarra">User</div>
+
+	</div>
+	
+	<div id="social">
+		<p>Social</p>
+		<ul id="chatwindow"></ul>
+		
+		
+		<input type="text" id="chatinput" autocomplete="off" autofocus>
+		<button id="send" onclick="mensaje()">Send</button>
+		
+	
+	</div>
+	
+	<div id="containerGrupos" ng-controller="group">
+	
+		
+
+		<div id="newGrupo" class="grupo2">
+
+		<p>Nuevo Grupo</p>
+		
+		Nombre del grupo: <input type="textlabel" id="groupName">
+		
+
+		<button id="newGrupo" onclick="newGrupo()">Crear!</button>
+		
+		<p>getGrupos</p>
+		
+		<button id="getGrupos" onclick="getGrupos()">Info!</button>
+
+		<p>Info Grupo</p>
+		
+		ID del grupo: <input type="textlabel" id="groupId">
+		<br />
+		<button id="infoGrupo" onclick="infoGrupo()">Info!</button>
+
+
+		</div>
+
+		<div id="grupo1" class="grupo" onclick="grupo()" ng-repeat="group in datagrupos" >
+		<h1>{{group.nombre}}</h1>
+
+		<hr class='separador_post'/>
+		
+		
+
+		</div>
+
+	</div>
+
+
+	<div id="cal"></div>
+	<div id="rapido"></div>
+
+</div>
+</body>
+</html>
+

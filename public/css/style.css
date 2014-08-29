@@ -1,0 +1,78 @@
+#barra{
+	position: fixed;
+	background-color: #FFE4C4;
+	height: 45px;
+	width: 100%;
+	margin-left: -8px;
+	margin-top:-8px;
+	margin-right: -8px;
+	overflow:hidden;
+	
+}
+
+
+#groupitbut
+{
+	display: inline-block;
+	margin-left: 650px;
+	
+}
+
+#abarra{
+
+	vertical-align: middle;
+	text-align: center;
+	font-size: 28px; 
+	font-family: fantasy;
+	text-decoration: none;
+	color:black;
+
+	
+}
+
+#loginbarra{
+
+	display: inline-block;
+	margin-left: 550px;
+	width: 50px;
+	vertical-align: middle;
+	text-align:center;
+	font-family: fantasy;
+	cursor: hand;
+
+}
+
+
+
+#title{
+
+	padding-top: 30px;
+	font-family: sans-serif;
+	
+}
+#aux{
+
+	height: 2000px;
+
+}
+
+#logindiv{
+
+
+	position: fixed;
+	margin-top: 37px;
+	margin-left: 1232px;
+	width: 200px;
+	height: 100px;
+	background-color: #DEB887;
+	text-align: center;
+ 	
+
+}
+
+#loginform
+{
+	margin-top: 30px;
+}
+
+

@@ -1,0 +1,42 @@
+<html>
+<head>
+	<link rel=stylesheet href="css/grupo.css" type="text/css"/>
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script src="http://192.168.0.180:3000/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="js/grupo.js"></script>
+	
+	<title>GroupIt!</title>
+</head>
+
+<body background="doc/fondo.jpg" onload="init()">
+
+<div id="container">
+
+
+	<div id="barra">
+		
+		<div id="groupitbut"><a href="#" id="abarra">Group It!</a></div>
+		<div id="userbarra">User</div>
+
+	</div>
+	
+	<div id="social">
+		<p>Social</p>
+		
+	</div>
+	
+
+
+
+	<div id="chat">
+		<div id="chatwindow"></div>
+		<input type="text" id="chatinput" autocomplete="off" autofocus>
+		<button id="send" onclick="mensaje()">Send</button>
+	</div>
+
+	
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,161 @@
+body
+{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+#container
+{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+
+#barra{
+	position: fixed;
+	background-color: #FFE4C4;
+	height: 5%;
+	width: 100%;
+	
+	
+}
+
+
+#groupitbut
+{
+	display: inline-block;
+	margin-left: 650px;
+	
+}
+
+#abarra{
+
+	vertical-align: middle;
+	text-align: center;
+	font-size: 28px; 
+	font-family: fantasy;
+	text-decoration: none;
+	color:black;
+
+	
+}
+
+#userbarra{
+
+	display: inline-block;
+	margin-left: 550px;
+	width: 50px;
+	vertical-align: middle;
+	text-align:center;
+	font-family: fantasy;
+	cursor: hand;
+
+}
+
+
+
+#social
+{
+	position: fixed;
+	background-color: orange;
+	width: 20%;
+	height: 95%;
+	margin-top: 2.5%;
+	margin-left: 80%;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 20px;
+
+}
+
+#containerGrupos
+{
+	position: fixed;
+	
+	margin-top: 2.5%;
+	background-color: blue;
+	width: 80%;
+	height: 60%;
+	overflow: scroll;
+
+}
+
+.grupo
+{
+	float: left;
+	background-image: url("../doc/grupo.jpg");
+	width: 25%;
+	height: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+
+}
+
+.grupo2
+{
+	float: left;
+	background-color: #0066FF;
+	width: 25%;
+	height: 100%;
+	margin-left: 0px;
+	margin-top: 0px;
+	
+
+}
+
+
+#cal
+{
+	position: fixed;
+	width:40%;
+	height: 35%;
+	margin-top: 36%;
+	margin-left: 40%;
+	background-color: red;
+}
+
+#rapido
+{
+	position: fixed;
+	width: 40%;
+	height: 35%;
+	margin-top: 36%;
+	background-color: orange;
+
+}
+
+#chatwindow
+{
+	width: 75%;
+	height: 60%;
+	background-color: white;
+	margin-left: 2.5%;
+	padding-right: 5%;
+	list-style-type: none;
+	overflow: scroll;
+	text-align: left;
+	font-family: fantasy;
+	font-size: 16px;
+	word-wrap: break-word
+
+}
+
+#chatinput
+{
+	width: 80%;
+	float: left;
+	margin-left: 2.5%;
+	
+}
+
+
+
+
+
+
+
+
